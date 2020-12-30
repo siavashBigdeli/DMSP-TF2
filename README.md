@@ -1,4 +1,4 @@
-TensorFlow V2 implementation (See [DMSP-TF2 page](https://github.com/siavashBigdeli/DMSP-TF2) for V1 implementation, and [DMSP page](https://github.com/siavashBigdeli/DMSP) for Caffe and MatCovNet implementations)
+TensorFlow V2 implementation (See [DMSP-tensorflow page](https://github.com/siavashBigdeli/DMSP-tensorflow) for V1 implementation, and [DMSP page](https://github.com/siavashBigdeli/DMSP) for Caffe and MatCovNet implementations).
 This repo. includes more general restoration formulation with sub-sampling (used in e.g. super-resolution)
 ## Deep Mean-Shift Priors for Image Restoration ([project page](https://www.cs.umd.edu/~zwicker/projectpages/DeepMeanShiftPriors-NIPS17.html))
 
@@ -17,11 +17,11 @@ See [manuscript](https://papers.nips.cc/paper/6678-deep-mean-shift-priors-for-im
 This code runs in Python and you need to install [TensorFlow](http://www.tensorflow.org).
 ### Contents:
 
-[demo_DMSP.py](https://github.com/siavashBigdeli/DMSP-TF2/blob/master/demo_DMSP.ipynb): Includes an example jupyter notebook for non-blind and noise-blind image reconstruction.
+[demo_DMSP.py](https://github.com/siavashBigdeli/DMSP-TF2/blob/master/demo_DMSP.ipynb): Includes an example jupyter notebook for non-blind and noise-blind image restoration.
 
-[DMSPDeblur.py](https://github.com/siavashBigdeli/DMSP-TF2/blob/master/DMSPDeblur.py): Implements MAP function for non-blind image reconstruction. Use Python's help function to learn about the input and output arguments.
+[DMSPRestore.py](https://github.com/siavashBigdeli/DMSP-TF2/blob/master/DMSPRestore.py): Implements MAP function for non-blind image restoration. Use Python's help function to learn about the input and output arguments.
 
-[DAE_model](https://github.com/siavashBigdeli/DMSP-TF2/tree/master/DAE/): Includes DAE model (tf.saved_model).
+[DAE/](https://github.com/siavashBigdeli/DMSP-TF2/tree/master/DAE/): Includes DAE model (tf.saved_model).
 
 [data](https://github.com/siavashBigdeli/DMSP-TF2/tree/master/data): Includes sample image(s).
 
