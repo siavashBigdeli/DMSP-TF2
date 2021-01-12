@@ -17,9 +17,11 @@ See [manuscript](https://papers.nips.cc/paper/6678-deep-mean-shift-priors-for-im
 This code runs in Python and you need to install [TensorFlow](http://www.tensorflow.org).
 ### Contents:
 
-[demo_DMSP.py](https://github.com/siavashBigdeli/DMSP-TF2/blob/master/demo_DMSP.ipynb): Includes an example jupyter notebook for non-blind and noise-blind image restoration.
+[demo_DMSP.ipynb](https://github.com/siavashBigdeli/DMSP-TF2/blob/master/demo_DMSP.ipynb): Includes an example jupyter notebook for non-blind and noise-blind image restoration.
 
 [DMSPRestore.py](https://github.com/siavashBigdeli/DMSP-TF2/blob/master/DMSPRestore.py): Implements MAP function for non-blind image restoration. Use Python's help function to learn about the input and output arguments.
+
+[evaluation.ipynb](https://github.com/siavashBigdeli/DMSP-TF2/blob/master/evaluation.ipynb): Includes a jupyter notebook for running evaluations for image super-resolution (see below)
 
 [DAE/](https://github.com/siavashBigdeli/DMSP-TF2/tree/master/DAE/): Includes DAE model (tf.saved_model).
 
@@ -30,8 +32,9 @@ This code runs in Python and you need to install [TensorFlow](http://www.tensorf
 The benchmark for this is from https://github.com/zsyOAOA/VDNet:
 Average PSNR/SSIM results of comparing methods under different combinations of scale factors, blur kernels and noise levels on Set14. The best
 results are highlighted in bold. The results highlighted in gray color indicate unfair comparison due to mismatched degraded assumptions.
+Code for reproducing results can be found in [evaluation.ipynb](https://github.com/siavashBigdeli/DMSP-TF2/blob/master/evaluation.ipynb).
 
-<img src="data/tbl_set14.png"/>
+<img src="data/tbl_set14.png" alt="Drawing" style="height: 500px;" align="center"/>
 
 
 <!---
